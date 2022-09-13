@@ -1,4 +1,3 @@
-#define NOMINMAX
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -39,7 +38,7 @@ int main(){
         g[v2].push_back(v1);
     }
     
-    dfs(g[0]);
+    dfs(0);
     
     return 0;
 }
