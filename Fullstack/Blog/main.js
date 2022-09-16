@@ -11,8 +11,13 @@ xhttp.onreadystatechange = function () {
         data.forEach(function(note){
             var li = document.createElement('li')
 
-            ul.append
+            ul.appendChild(li);
+            li.appendChild(document.createTextNode(note.content))
         })
 
+        document.getElementById("notes").appendChild(ul)
     }
 }
+
+xhttp.open("GET", "data.json", true)
+xhttp.send()
