@@ -1,25 +1,27 @@
-import {useState} from 'react'
-
 const App = () => {
-    const [value, setValue] = useState(10)
+  const course = 'Half Stack application development'
+  const part1 = 'Fundamentals of React'
+  const exercises1 = 10
+  const part2 = 'Using props to pass data'
+  const exercises2 = 7
+  const part3 = 'State of a component'
+  const exercises3 = 14
 
-    const hello = (who) => {
-        const handler = () => {
-            console.log('hello', who)
-        }
-        return handler
-    }
-
-
-    
-    return (
-      <div>
-        {value}
-        <button onClick={hello('world')}>button</button>
-        <button onClick={hello('react')}>button</button>
-        <button onClick={hello('function')}>button</button>
-        </div>
-    )
+  return (
+    <div>
+      <h1>{course}</h1>
+      <p>
+        {part1} {exercises1}
+      </p>
+      <p>
+        {part2} {exercises2}
+      </p>
+      <p>
+        {part3} {exercises3}
+      </p>
+      <p>Number of exercises {exercises1 + exercises2 + exercises3}</p>
+    </div>
+  )
 }
 
 export default App
