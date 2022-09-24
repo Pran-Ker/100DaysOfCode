@@ -15,7 +15,7 @@ function Main({activeNote, onUpdateNote}) {
     };
 
     if(!activeNote)
-    return <div className="no-active-note"> No note  here.s</div>
+    return <div className="no-active-note"> No note here</div>
 
     return (
         <div className="app-main">
