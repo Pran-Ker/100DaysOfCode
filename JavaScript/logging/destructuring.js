@@ -12,9 +12,12 @@ function feed(animal) {
 
 // Best method
 
-function feedBetter(animal) {
-    const {name, age} = animal;
-    return `Name is ${name} and age is ${age}`;
+function feedBetter({name, age, speed}) {
+    // const {name, age, hello, speed} = animal;
+    return `Name is ${name} and age is ${age}, and speed  ${speed}`;
 }
 
+
+
 console.log(feed(turtle));
+console.log(feedBetter(turtle));

@@ -2,7 +2,6 @@ import { useState } from 'react'
 
 const App = () => {
   const [persons, setPersons] = useState([
-    { name: 'prannay ckxla' }
   ]) 
   const [newName, setNewName] = useState('')
 

@@ -1,13 +1,13 @@
-import './App.css';
-import {useEffect, useState} from "react";
-
-import uuid from 'react-uuid';
+import Navbar from './Navbar';
+import Home from './Home';
 
 function App() {
-  
   return (
-    <div>
-      <p>Hello world</p>
+    <div className="App">
+      <Navbar />
+      <div className="content">
+        <Home />
+      </div>
     </div>
   );
 }
