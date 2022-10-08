@@ -1,0 +1,14 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+window
+Window {window: Window, self: Window, document: document, name: '', location: Location, …}
+setTimeout(() => {
+    console.log("After 5 seconds");
+}, 5000);
+3518
+VM359:2 After 5 seconds
+setTimeout(() => {
+    console.log("After 5 seconds");
+}, 5000);
+3519
+VM363:2 After 5 seconds
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
