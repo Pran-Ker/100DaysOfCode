@@ -1,4 +1,5 @@
 import ReactMarkdown from "react-markdown";
+import logo from './tribe.png';
 
 function Main({activeNote, onUpdateNote}) {
 
@@ -19,6 +20,7 @@ function Main({activeNote, onUpdateNote}) {
 
     return (
         <div className="app-main">
+            <img src={logo} />
             <div className="app-main-note-edit">
 
                 <input type="test" 
