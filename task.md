@@ -1,5 +1,11 @@
 Plan for the next few days :-
-[] Finish Dynamic programming
-[] Notes for Trees
+[X] Finish Dynamic programming
+[X] Notes for Trees
 [] Greedy algorithm
-[] Fullstack beginning
+[X] Fullstack beginning
+[] FullStack open 3
+[] FullStack open 4
+[] FullStack open 5
+[] FullStack open 6
+[] GCP Cloud Course
+[] Kubes Practise

@@ -7,10 +7,10 @@ let notes = [
 
 
 
-app.post('/api/notes', (request, response) => {
-  const note = request.body
+app.post('/api/notes', (req, res) => {
+  const note = req.body
   console.log(note)
-  response.json(note)
+  res.json(note)
 })
 
 const PORT = 3001
