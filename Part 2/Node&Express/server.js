@@ -23,8 +23,7 @@ const server = http.createServer((res, req) => {
             path += '404.html';
             break;
     }
-
-    // send an html file
+    
     fs.readFile(path, (err, data) => {
         if(err){
             console.log(err);
